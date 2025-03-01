@@ -1,0 +1,27 @@
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.food-item {
+    width: 100%; /* Full width of the container */
+    max-width: 300px; /* Optional: Set a max-width for better control */
+    margin: auto; /* Center the item horizontally */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 10px #00000015; /* Light shadow */
+    transition: 0.3s; /* Smooth transition for hover effects */
+    animation: fadeIn 1s; /* Apply the fadeIn animation */
+}
+
+.food-item-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 250px; /* Limit the maximum width */
+    border-radius: 15px; /* Rounded corners for the image */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
